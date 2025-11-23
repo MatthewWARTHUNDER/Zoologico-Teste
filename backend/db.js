@@ -2,8 +2,8 @@ const mysql = require('mysql2');
 
 const connection =  mysql.createConnection({
     host: 'localhost' ,
-    user: 'root',
-    password: 'root',
+    user: 'INSIRA O SEU USUARIO',
+    password: 'INSIRA A SUA SENHA',
     database: 'zoologico_db',
 })
 
